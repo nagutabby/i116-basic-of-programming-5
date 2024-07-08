@@ -77,4 +77,3 @@ n16 = Node(Thing.Stone, n13, n14)
 n17 = Node(Thing.Stone, n15, n16)
 
 game_search(n17, Thing.Gold, 25)
-
