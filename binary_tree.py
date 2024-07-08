@@ -13,7 +13,7 @@ class Leaf(Tree):
         return 'leaf'
 
 class Node(Tree):
-    def __init__(self, v: int | str, lt: Leaf | Node, rt: Leaf | Node):
+    def __init__(self, v, lt: Leaf | Node, rt: Leaf | Node):
         self.val = v
         self.left = lt
         self.right = rt
