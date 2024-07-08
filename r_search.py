@@ -18,4 +18,3 @@ def r_search(tree, x: Thing):
         queue.enqueue(node.right) # type: ignore
         queue.shuffle()
     return Leaf()
-
